@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- nav bar starts here -->
+
+
+    <header>
+        <nav>
+            <ul class="mainnav">
+                <li class="frame1">
+                    <div class="ul" id="mobile">
+                        <img src="images/menu.png" alt="" id="menu2" srcset="" width="30px" onclick="menuu.hidden^=1">
+                    </div>
+                    <img src="images/Group.png" alt="" srcset="" width="58px">
+                    <div>
+                        <div class="frame2">COMPANY</div>
+                        <p class="frame3">business tagline</p>
+                    </div>
+
+                </li>
+                <li>
+                    <ul class="navitems" id="desctop">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Our Services</li>
+                        <li>Pricing</li>
+                        <li>FAQ</li>
+                    </ul>
+
+                </li>
+                <li>
+                    <button id="btn1" type="button">Get A Quote</button>
+                </li>
+            </ul>
+        </nav>
+        <!-- nav bar ends here -->
+        <!-- hero section starts here -->
+
+
+        <div class="hero1">
+            <div class="frame4">
+                <div class="frame41">
+                    <div>Your Resume </div>
+                    <div><span>Deserve A Yes</span>
+                        Let's</div>
+                    <div>Make It Happen</div>
+                </div>
+                <div class="frame42">If Your Resume Isn’t Getting Responses, It’s Time For An Upgrade. Get An
+                    ATS-Optimized Resume
+                    Crafted By HR Experts To Help You Land More Interviews. Our Resumes Are Designed To Get Your Foot In
+                    The Door And Place Your Name At The Top Of The Shortlist.</div>
+                <div class="frame43">
+                    <button type="button" id="btn2">RESUME PAKAGES</button>
+                    <button type="button" id="btn3">CONTACT US</button>
+                </div>
+            </div>
+            <div class="frame5">
+                <div class="circle1">
+                    <div class="circle2"></div>
+                </div>
+
+                <img id="frame51"
+                    src="images/portrait-happy-young-woman-standing-with-backpack-holding-books-mobile-phone-isolated-white-wall-removebg-preview 1.png"
+                    alt="" srcset="">
+                <div class="frame52">
+                    <div>4.9</div>
+                    <div>
+                        <img src="images/Frame 247.png" alt="" srcset="">
+                        <div>Instructor Rating</div>
+                    </div>
+
+                </div>
+                <div class="frame53">
+                    <div>
+                        <img src="images/Mask group.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <div>260+</div>
+                        <div>Online Resume Created</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- hero section ends here -->
+    <!-- navbar start here -->
+
+    <div id="menuu" hidden>
+        <ul id="menu">
+            <li class="frame11">
+                <img src="images/Group.png" alt="" srcset="" width="58px">
+                <div>
+                    <div class="frame2">COMPANY</div>
+                    <p class="frame3">business tagline</p>
+                </div>
+                <img src="images/cross.png" alt="" id="cross" srcset="" width="32px" onclick="menuu.hidden^=1">
+
+
+            </li>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Our Services</li>
+            <li>Pricing</li>
+            <li>FAQ</li>
+        </ul>
+    </div>
+
+    <!-- navbar ends here -->
+    <!-- main section starts here -->
+
+
+    <main class="container">
+        <div class="frame6">
+            <div class="title">What You Get</div>
+            <p>You’re Not Just Another Applicant And Your Resume Shouldn’t Look Like One</p>
+            <div class="box">
+                <div class="card">
+                    <div>
+                        <img src="images/Group 90.png" alt="" srcset="">
+                        <div id="title2">A Resume That Passes ATS Filters</div>
+                    </div>
+                    <div id="title3">Get a professionally written, keyword-optimized resume that lands in recruiter
+                        inboxes—not
+                        rejection piles.</div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="images/g1.png" alt="" srcset="">
+                        <div id="title2">A Cover Letter That Gets Read</div>
+                    </div>
+                    <div id="title3">Stand out with a cover letter that speaks directly to the role and reflects your
+                        strengths.
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="images/Group 92.png" alt="" srcset="">
+                        <div id="title2">A LinkedIn Profile That Works For You</div>
+                    </div>
+                    <div id="title3">Attract the right eyes, start conversations, and show up in recruiter searches.
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="images/g1 (1).png" alt="" srcset="">
+                        <div id="title2">Interview Confidence </div>
+                    </div>
+                    <div id="title3">Interview preperation with real HR professionals so you speak clearly,confidently,
+                        and
+                        convincingly.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- main section ends here -->
+
+    <!-- some javascript for mobile menu here -->
+    <script>
+        const cross = document.getElementById('cross');
+        const menu2 = document.getElementById('menu2');
+
+        menu2.addEventListener("click", function () {
+            menu2.style.display = 'flex';
+            cross.style.display = 'flex';
+
+        })
+        cross.addEventListener("click", function () {
+            cross.style.display = 'none';
+            menu2.style.display = 'flex';
+
+        })
+    </script>
+</body>
+
+</html>
